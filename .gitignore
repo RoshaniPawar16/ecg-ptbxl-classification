@@ -1,0 +1,18 @@
+# Dataset — never push to GitHub
+ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/
+ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3.zip
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
