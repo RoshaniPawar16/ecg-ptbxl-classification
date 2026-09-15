@@ -37,9 +37,9 @@ pip install torch wfdb scikit-learn matplotlib numpy pandas
 
 **Notebooks, in order:**
 
-1. `01_load_explore.ipynb` — loads the dataset, checks label distribution, plots sample records.
-2. `02_train.ipynb` — trains the model on folds 1-8, validates on fold 9, saves `checkpoints/best_model.pt`, `checkpoints/test_preds.npy`, and `checkpoints/test_targets.npy`.
-3. `03_evaluate.ipynb` — loads the saved prediction arrays (no model reload), computes AUC, confusion counts at 0.5 threshold, and the five hardest test records.
+1. `01_load_explore.ipynb`: loads the dataset, checks label distribution, plots sample records.
+2. `02_train.ipynb`: trains the model on folds 1-8, validates on fold 9, saves `checkpoints/best_model.pt`, `checkpoints/test_preds.npy`, and `checkpoints/test_targets.npy`.
+3. `03_evaluate.ipynb`: loads the saved prediction arrays (no model reload), computes AUC, confusion counts at 0.5 threshold, and the five hardest test records.
 
 ## Limitations
 
